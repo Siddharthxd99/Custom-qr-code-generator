@@ -1,6 +1,6 @@
 import qrcode
 
-url = "" #put the link which you want to convert into qrcode
+url = "" #enter the link or the text which you want to convert into qrcode
 
 img=qr.make(url)
 img.save('qrcode.png')
